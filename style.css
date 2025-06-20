@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Henny Penny";
+    font-size: 46px;
+}
+.main-container {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.front, .back {
+    max-width: 640px;
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    background-color: hsl(196, 67%, 70%);
+    text-shadow: 2px 2px 3px black;
+    box-shadow: 3px 3px 5px   hsl(196, 67%,40%);
+}
+
+.main-container p {
+    text-align: center;
+    
+}
+
+img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
